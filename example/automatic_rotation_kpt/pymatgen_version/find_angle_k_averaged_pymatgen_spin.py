@@ -129,12 +129,6 @@ def get_max(proj_data, atom_idx=0, orbital='d', alpha=0, beta=0, gamma=0, half_r
 atom_idx = int(sys.argv[1])
 orbital  = sys.argv[2]
 
-if orbital < 4:
-    orb_idx = 1
-elif orbital < 9: 
-    orb_idx = 2
-else:
-    orb_idx = 3
 
 spin = float(sys.argv[3])
 
